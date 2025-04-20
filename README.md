@@ -65,7 +65,8 @@ Save and eixt
 </h2>
 
 ```bash
-make menuconfig
+make -jx
+# where x is the number of threads your computer can run.
 ```
 
 <h4>
